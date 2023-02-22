@@ -16,6 +16,7 @@
 		75EA2C7129A5A0E300A6116E /* SocialLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA2C7029A5A0E300A6116E /* SocialLoginTests.swift */; };
 		75EA2C7B29A5A0E300A6116E /* SocialLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA2C7A29A5A0E300A6116E /* SocialLoginUITests.swift */; };
 		75EA2C7D29A5A0E300A6116E /* SocialLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA2C7C29A5A0E300A6116E /* SocialLoginUITestsLaunchTests.swift */; };
+		75EA2C8A29A5A17200A6116E /* LoginnedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA2C8929A5A17200A6116E /* LoginnedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		75EA2C7629A5A0E300A6116E /* SocialLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EA2C7A29A5A0E300A6116E /* SocialLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginUITests.swift; sourceTree = "<group>"; };
 		75EA2C7C29A5A0E300A6116E /* SocialLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75EA2C8929A5A17200A6116E /* LoginnedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginnedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				75EA2C5B29A5A0E100A6116E /* SceneDelegate.swift */,
 				75EA2C5D29A5A0E100A6116E /* ViewController.swift */,
 				75EA2C5F29A5A0E100A6116E /* Main.storyboard */,
+				75EA2C8929A5A17200A6116E /* LoginnedViewController.swift */,
 				75EA2C6229A5A0E300A6116E /* Assets.xcassets */,
 				75EA2C6429A5A0E300A6116E /* LaunchScreen.storyboard */,
 				75EA2C6729A5A0E300A6116E /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				75EA2C5E29A5A0E100A6116E /* ViewController.swift in Sources */,
 				75EA2C5A29A5A0E100A6116E /* AppDelegate.swift in Sources */,
+				75EA2C8A29A5A17200A6116E /* LoginnedViewController.swift in Sources */,
 				75EA2C5C29A5A0E100A6116E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
