@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class LoginnedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        title = LoginType.name
     }
+    
+    @IBAction func tappedLogout(_ sender: Any) {
+        if LoginType.name == "Google" {
+            GIDSignIn.sharedInstance.signOut()
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
+    
     
 
     /*

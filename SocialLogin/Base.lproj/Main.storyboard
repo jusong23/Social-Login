@@ -62,7 +62,7 @@
             </objects>
             <point key="canvasLocation" x="-89" y="4"/>
         </scene>
-        <!--Loginned View Controller-->
+        <!--로그인 성공-->
         <scene sceneID="1wd-MI-F7R">
             <objects>
                 <viewController storyboardIdentifier="LoginnedViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hur-f3-lc9" customClass="LoginnedViewController" customModule="SocialLogin" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,7 +72,14 @@
                         <viewLayoutGuide key="safeArea" id="TyG-z9-e9C"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="PUU-G3-vya"/>
+                    <navigationItem key="navigationItem" title="로그인 성공" id="PUU-G3-vya">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="h2M-Xf-rOM">
+                            <color key="tintColor" systemColor="systemRedColor"/>
+                            <connections>
+                                <action selector="tappedLogout:" destination="hur-f3-lc9" id="9Ku-Hs-iUk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pH1-MF-F38" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,6 +105,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
