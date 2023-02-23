@@ -12,6 +12,14 @@
 				<string>com.googleusercontent.apps.507215977108-t8kkjmc2odaupfli1jcre62ctci300bk</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>kakaodadc05f8021322896a967bf4e973635a</string>
+			</array>
+		</dict>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
@@ -32,5 +40,12 @@
 			</array>
 		</dict>
 	</dict>
+    <key>LSApplicationQueriesSchemes</key>
+      <array>
+          <!-- 카카오톡으로 로그인 -->
+          <string>kakaokompassauth</string>
+          <!-- 카카오링크 -->
+          <string>kakaolink</string>
+      </array>
 </dict>
 </plist>

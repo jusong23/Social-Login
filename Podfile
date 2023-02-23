@@ -7,6 +7,10 @@ target 'SocialLogin' do
 
 pod 'GoogleSignIn'
 pod 'Firebase/Auth'
+pod 'KakaoSDKCommon'
+pod 'KakaoSDKAuth'
+pod 'KakaoSDKUser'
+
   # Pods for SocialLogin
 
   target 'SocialLoginTests' do
